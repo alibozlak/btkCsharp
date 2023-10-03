@@ -62,5 +62,10 @@ namespace EntityFrameworkDemo
             tbxUnitPriceUpdate.Text = dgwProducts.CurrentRow.Cells[2].Value.ToString();
             tbxStockAmountUpdate.Text = dgwProducts.CurrentRow.Cells[3].Value.ToString();
         }
+
+        private void tbxSearch_TextChanged(object sender, EventArgs e)
+        {
+            dgwProducts.DataSource = productDal.GetAllByProductName(tbxSearch.Text);
+        }
     }
 }
