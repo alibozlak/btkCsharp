@@ -17,21 +17,27 @@
     }
 
     [ToTable("Customers")]
+    [ToTable("TblCustomers")]
     class Customer
     {
         public int Id { get; set; }
+
         [RequiredProperty]
         public string FirstName { get; set; }
+
         [RequiredProperty]
         public string LastName { get; set; }
+
         public int Age { get; set; }
     }
 
+    [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
     class RequiredPropertyAttribute : Attribute
     {
         
     }
 
+    [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
     class ToTableAttribute : Attribute
     {
         private string tableName;
