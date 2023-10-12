@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetDemo", "AdoNetDemo\Ad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDemo", "EntityFrameworkDemo\EntityFrameworkDemo.csproj", "{2FEAA670-A8D1-46C7-9A5C-75672386F42B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{07BE4E73-C67F-4DAC-B99E-2A6AF0954B37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{07BE4E73-C67F-4DAC-B99E-2A6AF0954B37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attributes", "Attributes\Attributes.csproj", "{D690FF02-8528-4B38-AF02-0DAE5923F216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attributes", "Attributes\Attributes.csproj", "{D690FF02-8528-4B38-AF02-0DAE5923F216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{AC609394-0249-4B66-A8FE-EB6DF06C35E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D690FF02-8528-4B38-AF02-0DAE5923F216}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D690FF02-8528-4B38-AF02-0DAE5923F216}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D690FF02-8528-4B38-AF02-0DAE5923F216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC609394-0249-4B66-A8FE-EB6DF06C35E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC609394-0249-4B66-A8FE-EB6DF06C35E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC609394-0249-4B66-A8FE-EB6DF06C35E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC609394-0249-4B66-A8FE-EB6DF06C35E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
